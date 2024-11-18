@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./sideheader.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube-clone</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="left-one" src="./icons/hamburger-menu.svg">
+            <img class="left-two" src="./icons/youtube-logo.svg">
+        </div>
+        <!--we keep postion abosluate inside the relative to get this-->
+        <div class="center-section">
+            <input class="search-box" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="./icons/search.svg">
+                <div class="word-search"> Search</div>
+            </button>
+            <button class="voice-button">
+                <img class="voice-icon" src="./icons/voice-search-icon.svg">
+                <div class="word-search"> Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-div">
+                <img class="right-section-one" src="./icons/upload.svg">
+                <div class="word-search">Create</div>
+            </div>
+            <div class="app-div">
+                <img class="right-section-two" src="./icons/youtube-apps.svg">
+                <div class="word-search">YouTube apps</div>
+            </div>
+            <div class="notifications-container">
+                <img class="right-section-three" src="./icons/notifications.svg">
+                <div class="word-search">Notifications</div>
+                <div class="notifications-count">
+                    2
+                </div>
+            </div>
+
+            <img class="right-section-four" src="./channel-images/profile.jpg">
+        </div>
+    </header>
+    <nav class="side-header">
+        <div class="side-icones">
+            <img src="./icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="side-icones">
+            <img src="./icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="side-icones"> <img src="./icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="side-icones"> <img src="./icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="side-icones"> <img src="./icons/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        <div class="side-icones"> <img src="./icons/library.svg">
+            <div>Library</div>
+        </div>
+
+    </nav>
+    <main>
+        <section class="video-grid">
+
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/ntr4.png" height="" />
+                    <div class="time">
+                        2:59
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/Logo_of_ntr_arts.jpg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                            Ramaraju For Bheem - Bheem Intro - RRR (Telugu) | NTR
+                        </p>
+                        <p class="video-author">
+                            Ntr Arts
+                        </p>
+                        <p class="video-count">
+                            141M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/mahesh.avif" height="" />
+                    <div class="time">
+                        2:19
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/sithara-logo.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+                            Guntur Kaaram | Official trailer | Mahesh Babu
+                        </p>
+                        <p class="video-author">
+                            Sithara Entertinments
+                        </p>
+                        <p class="video-count">
+                            100M views &#183; 2 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/alluarjun.jpeg" />
+                    <div class="time">
+                        2:39
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/mythri-logo.png">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                            Pushpa 2 - The Rule | Official Trailer | Allu Arjun 
+                        </p>
+                        <p class="video-author">
+                         Mythri Moives
+                        </p>
+                        <p class="video-count">
+                            200M views &#183; 3 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="video-preview">
+
+                <div class="thaumbnail-box"> <img class="video-image" src="./thumbnails/thumbnail-1.webp" />
+                    <div class="time">
+                        14:20
+                    </div>
+                </div>
+
+
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="/channel-images/channel-1.jpeg">
+                    </div>
+                    <div class="channel-info">
+
+                        <p class="video-text">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-count">
+                            3.4M views &#183; 6 months ago
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-2.webp" />
+                    <div class="time">
+                        8:22
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-2.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+                            Try Not To Laugh Challenge #9
+                        </p>
+                        <p class="video-author">
+                            Markiplier
+                        </p>
+                        <p class="video-count">
+                            19M views &#183; 4 years ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-3.webp" />
+                    <div class="time">
+                        9:13
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-3.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+                            Crazy Tik Toks Taken Moments Before DISASTER
+                        </p>
+                        <p class="video-author">
+                            SSSniperWolf
+                        </p>
+                        <p class="video-count">
+                            12M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-4.webp" />
+                    <div class="time">
+                        22:29
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-4.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+                            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                        </p>
+                        <p class="video-author">
+                            Veritasium
+                        </p>
+                        <p class="video-count">
+                            18M views &#183; 4 months ago &#183;
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-5.webp" />
+                    <div class="time">
+                        11:17
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-5.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                            Kadane's Algorithm to Maximum Sum Subarray Problem
+                        </p>
+                        <p class="video-author">
+                            CS Dojo
+                        </p>
+                        <p class="video-count">
+                            519K views &#183; 5 years ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-6.webp" />
+                    <div class="time">
+                        19:59
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-6.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                            Anything You Can Fit In The Circle I’ll Pay For
+                        </p>
+                        <p class="video-author">
+                            MrBeast
+                        </p>
+                        <p class="video-count">
+                            141M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-7.webp" />
+                    <div class="time">
+                        4:59
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-7.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                            
+Why Planes Don't Fly Over Tibet
+                        </p>
+                        <p class="video-author">
+                            RealLifeLore
+                        </p>
+                        <p class="video-count">
+                            6.6M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-8.webp" />
+                    <div class="time">
+                        10:13
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-8.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                            
+Inside The World's Biggest Passenger Plane
+                        </p>
+                        <p class="video-author">
+                            Tech Vision
+                        </p>
+                        <p class="video-count">
+                            3.7M views &#183; 10 months ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-9.webp" />
+                    <div class="time">
+                        7:12
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-9.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                            
+The SECRET to Super Human STRENGTH
+                        </p>
+                        <p class="video-author">
+                            ThenX
+                        </p>
+                        <p class="video-count">
+                            20M views &#183; 3 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-10.webp" />
+                    <div class="time">
+                        13:17
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-10.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                           
+How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+                        </p>
+                        <p class="video-author">
+                            Business Insider
+                        </p>
+                        <p class="video-count">
+                            14M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-11.webp" />
+                    <div class="time">
+                        7:53
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-11.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                           
+Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+                        </p>
+                        <p class="video-author">
+                            Destination Tips
+                        </p>
+                        <p class="video-count">
+                            3M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/thumbnail-12.webp" />
+                    <div class="time">
+                        4:10
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/channel-12.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                           
+What would happen if you didn’t drink water? - Mia Nacamulli
+                        </p>
+                        <p class="video-author">
+                            TED-Ed
+                        </p>
+                        <p class="video-count">
+                            12M views &#183; 5 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="video-preview">
+                <div class="thaumbnail-box">
+                    <img class="video-image" src="./thumbnails/codegnan-13.webp" />
+                    <div class="time">
+                        1:14:10
+                    </div>
+                </div>
+                <div class="channel-info-grid">
+                    <div class="channel-img">
+                        <img class="profile-img" src="./channel-images/codegnan_logo.jpeg">
+
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-text">
+
+
+                           
+                            Mastering Python Full Stack Development: Your Ultimate Beginner's Guide 🚀 | By Saketh Reddy Kallepu
+                        </p>
+                        <p class="video-author">
+                            Codegnan
+                        </p>
+                        <p class="video-count">
+                            1M views &#183; 5 year ago
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

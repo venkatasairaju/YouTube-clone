@@ -1,0 +1,36 @@
+.side-header{
+    background-color:white;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width: 70px;
+    z-index: 500;
+    padding: 5px;
+        /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+.side-icones{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+    
+}
+.side-icones:hover{
+    background-color: rgb(231, 231, 231);
+}
+.side-icones img{
+    height: 24px;
+    margin-bottom:4px;
+    /* position: relative ; */
+}
+.side-icones div{
+    font-size: 10px;
+    /* position: absolute; */
+
+}
